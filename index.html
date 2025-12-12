@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sherwin — Full-Stack Developer</title>
+  <link rel="shortcut icon" href="images/icon.jpeg" type="image/icon.jpeg">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0d6efd">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-row">
+      <div class="brand">
+        <a href="#home">Sherwin<span class="dot">.</span></a>
+      </div>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+        <a class="btn resume" href="assets/resume.pdf" target="_blank">View Resume</a>
+        <a class="btn resume ghost" href="assets/resume.pdf" download>Download Resume</a>
+        <button id="hamburger" class="icon-btn hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="accent">Sherwin</span></h1>
+        <p class="lead">
+          Web Developer & IoT Enthusiast — I build scalable web apps and smart devices that solve real problems.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn ghost">Hire Me</a>
+        </div>
+        <div class="social small">
+          <a href="https://github.com/Niwresh" target="_blank">
+             <img src="https://i.pinimg.com/originals/16/21/3f/16213fe0d23aa40c1208ba1594acef50.gif" class="gif-icon">
+          </a>
+          <a href="https://www.facebook.com/MasterSherwiiiiN">
+             <img src="https://i.pinimg.com/originals/70/ff/5a/70ff5a121874781d4e6b0412f41e844e.gif" class="gif-icon">
+          </a>
+            <a href="https://www.instagram.com/mastersherwiiin/">
+             <img src="https://i.pinimg.com/originals/0e/0e/f4/0e0ef42947c727be10681f3a34958bf2.gif" class="gif-icon">
+          </a>
+          </a>
+            <a href="https://www.tiktok.com/@master_weweng">
+             <img src="https://i.pinimg.com/originals/7d/5f/c9/7d5fc9d70287641cdff8992d3ed5f703.gif" class="gif-icon">
+          </a>
+
+        </div>  
+      </div>
+
+      <div class="hero-image">
+        <img src="images/sherwin.png" alt="Profile" id="profile-img" />
+      </div>
+    </section>
+
+   <section id="about" class="about container">
+  <div class="about-grid">
+
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I'm a systems-minded developer with experience in web applications (PHP, MySQL, React),
+        IoT devices (ESP8266/ESP32), and small-scale system integration. I enjoy optimizing workflows,
+        automating tasks, and writing clean maintainable code.
+      </p>
+
+      <ul class="about-list">
+        <li><strong>Location:</strong> Manolo Fortich Bukidnon, Philippines</li>
+        <li><strong>Email:</strong> <a href="mailto:sherwinlumakang827@gmail.com">sherwinlumakang827@gmail.com</a></li>
+        <li><strong>Availability:</strong> Open to opportunities</li>
+      </ul>
+    </div>
+
+      <div class="seminar-card">
+        <h3>Seminars & Webinars</h3>
+
+        <ul class="seminar-list">
+          <li>Cybersecurity Essentials – 2024</li>  
+          <li>IoT and Automation Conference – 2024</li>
+          <li>Web Development Best Practices – 2023</li>
+          <li>Cloud Computing Basics – 2023</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <p class="muted">Technologies I work with most</p>
+
+      <div class="skill-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>HTML & CSS</span><span>95%</span>
+          </div>
+          <div class="skill-bar" data-progress="95"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>JavaScript</span><span>85%</span>
+          </div>
+          <div class="skill-bar" data-progress="85"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>PHP & MySQL</span><span>90%</span>
+          </div>
+          <div class="skill-bar" data-progress="90"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>React</span><span>75%</span>
+          </div>
+          <div class="skill-bar" data-progress="75"><div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Selected Projects</h2>
+      <p class="muted">Click a project for details</p>
+
+      <div class="projects-grid" id="projects-grid">
+        <article class="project-card" data-title="Library Management System" data-desc="A PHP + MySQL app to manage books, borrowing, and returns. Features: user auth, admin panel, borrowing logs." data-tech="PHP, MySQL, JavaScript" data-link="#">
+          <img src="project1.jpg" alt="Project 1">
+          <div class="card-body">
+            <h3>Library Management System</h3>
+            <p class="card-sub">PHP, MySQL</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="IoT Dryer Controller" data-desc="IoT system using ESP8266 to automate dryer cover, send SMS alerts, and track GPS during emergencies." data-tech="ESP8266, NodeMCU, GSM" data-link="#">
+          <img src="project2.jpg" alt="Project 2">
+          <div class="card-body">
+            <h3>IoT: Student Tracking Device</h3>
+            <p class="card-sub">ESP32, GSM</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="Restaurant CRM-ERP" data-desc="A CRM-ERP system for restaurants with ordering, inventory, and reporting modules." data-tech="React, Node, MySQL" data-link="#">
+          <img src="project3.jpg" alt="Project 3">
+          <div class="card-body">
+            <h3>Restaurant CRM-ERP</h3>
+            <p class="card-sub">PHP, MySQL</p>
+          </div>
+        </article>
+        <article class="project-card" data-title="Restaurant CRM-ERP" data-desc="A CRM-ERP system for restaurants with ordering, inventory, and reporting modules." data-tech="React, Node, MySQL" data-link="#">
+          <img src="project3.jpg" alt="Project 4">
+          <div class="card-body">
+            <h3>EmergTrack Web App</h3>
+            <p class="card-sub">IONIC React, PostgreSQL</p>
+          </div>
+        </article>  
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact Me</h2>
+      <p class="muted">Have a project? Let's talk.</p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        <textarea id="message" name="message" rows="6" placeholder="Message" required></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send Message</button>
+          <small class="form-note">Or email me at <a href="https://mail.google.com/mail/u/0/#inbox">sherwinlumakang827@gmail.com</a></small>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <h3 id="modal-title">Project Title</h3>
+      <p id="modal-desc">Project description</p>
+      <p><strong>Tech:</strong> <span id="modal-tech"></span></p>
+      <a id="modal-link" class="btn ghost" href="#" target="_blank" rel="noopener">View Project</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023<span id="year"></span> Sherwin • Built with HTML, CSS & JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
