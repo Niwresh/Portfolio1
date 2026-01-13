@@ -1,4 +1,3 @@
-// Basic interactivity: hamburger, smooth scroll, modal, skill animation, theme toggle, contact form validation
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburger");
