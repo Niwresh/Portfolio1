@@ -44,15 +44,15 @@ body{
 .hamburger{ display:none; flex-direction:column; gap:4px; }
 .hamburger span{ display:block; width:22px; height:2px; background:var(--text); border-radius:2px; }
 
-/* hero */
-.hero{ display:flex; gap:30px; align-items:center; padding:60px 0; background:transparent; }
-.hero-content{ flex:1; }
-.hero h1{ font-size:2.1rem; margin-bottom:8px; }
+/* sherwin */
+.sherwin{ display:flex; gap:30px; align-items:center; padding:60px 0; background:transparent; }
+.sherwin-content{ flex:1; }
+.sherwin h1{ font-size:2.1rem; margin-bottom:8px; }
 .accent{ color:var(--primary); }
 .lead{ color:var(--muted); margin-bottom:18px; max-width:60ch; }
-.hero-ctas{ display:flex; gap:10px; margin-bottom:14px; }
-.hero-image{ width:300px; flex-shrink:0; }
-.hero-image img{ width:100%; height:300px; object-fit:cover; border-radius:14px; border:6px solid rgba(13,110,253,0.08); }
+.sherwin-ctas{ display:flex; gap:10px; margin-bottom:14px; }
+.sherwin-image{ width:300px; flex-shrink:0; }
+.sherwin-image img{ width:100%; height:300px; object-fit:cover; border-radius:14px; border:6px solid rgba(13,110,253,0.08); }
 
 /* about */
 .about{ background:transparent; padding:40px 0; }
@@ -98,8 +98,8 @@ input, textarea{ padding:12px; border-radius:10px; border:1px solid #e6e9ef; out
 /* responsive */
 @media (max-width:900px){
   .about-grid{ grid-template-columns:1fr; }
-  .hero{ flex-direction:column-reverse; text-align:center; }
-  .hero-image{ width:220px; }
+  .sherwin{ flex-direction:column-reverse; text-align:center; }
+  .sherwin-image{ width:220px; }
 }
 @media (max-width:760px){
   .nav-list{ display:none; position:absolute; right:16px; top:68px; background:var(--card); border-radius:10px; box-shadow:0 10px 30px rgba(2,6,23,0.08); padding:12px; flex-direction:column; min-width:200px; }
